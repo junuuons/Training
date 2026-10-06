@@ -199,7 +199,7 @@
           <span class="text-lg">☁️</span>
           <div>
             <h3 class="font-bold text-sm text-slate-900">Firebase 실시간 동기화 활성화됨</h3>
-            <p class="text-[11px] text-slate-600">프로젝트 <code class="font-mono font-bold text-[#007AFF]">to-dreams</code>에 연결되어 자동으로 모든 기기가 동기화됩니다.</p>
+            <p class="text-[11px] text-slate-600">프로젝트 <code class="font-mono font-bold text-[#007AFF]">자동으로 모든 기기가 동기화됩니다.</p>
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@
       <!-- 엑셀 백업 -->
       <div class="ios-card p-4 space-y-3">
         <h3 class="font-bold text-sm text-slate-900">엑셀(.CSV) 내보내기 & 불러오기</h3>
-        <p class="text-xs text-slate-600">UTF-8 BOM 형식으로 한글 깨짐 없이 데이터를 백업/복원합니다. (보안 PIN: 1112)</p>
+        <p class="text-xs text-slate-600">데이터를 백업/복원합니다.</p>
         <div class="grid grid-cols-2 gap-2">
           <button onclick="exportToExcelCSV()" class="bg-slate-800 text-white py-2.5 rounded-xl text-xs font-bold transition">📥 CSV 다운로드</button>
           <input type="file" id="csvFileInput" accept=".csv" class="hidden" onchange="importFromExcelCSV(event)">
@@ -216,7 +216,7 @@
       </div>
 
       <div class="ios-card p-4 space-y-2 border-rose-200">
-        <span class="text-xs font-bold text-rose-600">데이터 초기화 (보안 PIN: 1112)</span>
+        <span class="text-xs font-bold text-rose-600">데이터 초기화</span>
         <button onclick="clearHistory()" class="bg-rose-50 text-rose-700 px-3 py-2 rounded-xl text-xs font-semibold">모든 기록 삭제 (클라우드 포함)</button>
       </div>
     </div>
